@@ -1,0 +1,8 @@
+{
+    "alc_path": "/toolsConfig/",
+    "load_pattern": [
+        "$SHOW",
+        "$SHOW.$SEQ",
+        "$SHOW.$SEQ.$SHOT"
+        ]
+}

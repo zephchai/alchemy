@@ -1,0 +1,9 @@
+# Lines that start with '#' are comments.
+# Add lines below to ignore those files from commit
+
+Thumbs.db
+*.pyc
+*~
+*.swp
+ext
+apps
