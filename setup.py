@@ -8,8 +8,10 @@ setup(
     install_requires = ['docutils>=0.3'],
 
     package_data = {
-    # If any package contains *.txt or *.rst files, include them:
-        '': ['*.txt', '*.rst']
+        # If any package contains *.txt or *.rst files, include them:
+        "": ['*.txt', '*.rst'],
+        # include the config file
+        "alchemy": ["config.json"]
     },
     #metadata
     author = "Zeph Chai",
